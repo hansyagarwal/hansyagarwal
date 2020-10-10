@@ -5,11 +5,37 @@ Hello :rooster:
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <style>
+    .card{
+}
+
+.card img{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+
+.cards{
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(6, 1fr); }
+}
+
+* {
+  box-sizing: border-box;
+}</style>
 </head>
 
 <div class="container">
-      
-      <h2>SkillSet</h2>
   <div class="cards">
      <div class="card">
         <center>
