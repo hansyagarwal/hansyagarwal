@@ -1,3 +1,3 @@
 Hello :rooster:
 
-<img src="tech.png">
+<img src="tech.PNG">
